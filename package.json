@@ -1,0 +1,20 @@
+{
+  "name": "@valudio/native-clipboard",
+  "version": "0.0.0",
+  "description": "Native node addon that provides tools to manage the clipboard on macos and windows",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "Marc Fuentes Montenegro <marc.fuentes@valudio.com>",
+  "license": "MIT",
+  "scripts": {
+    "install": "neon build",
+    "build": "neon build --release && tsc && mv ./native/index.node ./dist/index.node",
+    "start": "node ./lib/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.5",
+    "neon-cli": "0.3.1",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.3"
+  }
+}

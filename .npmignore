@@ -1,0 +1,7 @@
+.vscode
+native
+lib
+README.MD
+.npmignore
+tsconfig.json
+tslint.json
