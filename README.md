@@ -1,6 +1,6 @@
 # Native clipboard node module (Macos and Windows)
 
-Native node addon with intention to manage the clipboard. Mainly to be used with [Electron](https://github.com/electron/electron).
+Native node addon that allows you to manage the clipboard. Mainly to be used with [Electron](https://github.com/electron/electron).
 
 ## Installation
 
