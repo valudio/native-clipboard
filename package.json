@@ -7,6 +7,7 @@
   "types": "dist/index.d.ts",
   "author": "Marc Fuentes Montenegro <marc.fuentes@valudio.com>",
   "license": "MIT",
+  "keywords": ["node", "addon", "clipboard", "electron"],
   "scripts": {
     "build": "neon build --release && tsc && mv ./native/index.node ./dist/index.node",
     "start": "node ./lib/index.js"
