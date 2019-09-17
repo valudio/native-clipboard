@@ -1,4 +1,5 @@
 # Native clipboard node module (Macos and Windows)
+[![npm version](https://img.shields.io/npm/v/@valudio/native-clipboard)](https://www.npmjs.com/package/@valudio/native-clipboard)
 
 Native node addon that allows you to manage the clipboard. Mainly to be used with [Electron](https://github.com/electron/electron).
 
